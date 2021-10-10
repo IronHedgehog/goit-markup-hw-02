@@ -1,3 +1,55 @@
+:root {
+    --main-text: #757575;
+    --title-text: #212121;
+    --accent: #2196F3;
+    --main-bg: #FFFFFF;
+    --secondary-bg: #F5F4FA;
+    --hero-bg: #2F303A;
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--main-text);
+}
+
+.section-title,
+.item-title {
+    color: var(--title-text);
+}
+
 .logo {
-    color: #2196F3;
+    color: var(--accent);
+}
+
+.hero-title {
+    color: var(--main-bg);
+    background-color: var(--hero-bg);
+}
+
+.hero-button {
+    background-color: var(--accent);
+    color: var(--main-bg);
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.navigation-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--accent);
+}
+
+.section-bcg {
+    background-color: var(--secondary-bg);
+}
+
+.footer-bcg {
+    background-color: var(--hero-bg);
 }
