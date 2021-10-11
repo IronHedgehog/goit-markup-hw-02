@@ -9,22 +9,15 @@
 
 body {
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     background-color: var(--main-bg);
     color: var(--main-text);
 }
 
-.section-title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    color: var(--title-text);
-}
 
-.item-title {
-    color: var(--title-text);
-}
+/* logo */
 
 .logo {
     font-weight: bold;
@@ -34,6 +27,17 @@ body {
 
 .Web-logo {
     color: var(--accent);
+}
+
+
+/* hero section */
+
+.hero {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: var(--hero-bg);
 }
 
 .hero-title {
@@ -47,22 +51,43 @@ body {
 }
 
 .hero-button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     background-color: var(--accent);
     color: var(--main-bg);
 }
 
-.navigation-list {
+
+/* index styles */
+
+.section-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--title-text);
+}
+
+.item-title {
+    color: var(--title-text);
+}
+
+.item-list {
     list-style: none;
 }
 
-.navigation-item {
+.list-item {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.list-link:hover,
+.list-link:focus {
     color: var(--accent);
 }
 
@@ -80,4 +105,28 @@ body {
 
 .Studio-logo {
     color: var(--main-bg)
+}
+
+
+/* Partfolio styles */
+
+.partfolio-buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+}
+
+.partfolio-buttons:focus,
+.partfolio-buttons:hover {
+    color: var(--main-bg);
+    background-color: var(--accent);
+}
+
+.partfolio-image-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    color: var(--title-text);
 }
