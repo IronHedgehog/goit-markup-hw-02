@@ -5,28 +5,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <title> Домашнее задание #2</title>
+    <title>Портфолио</title>
 </head>
 
 <body>
     <header>
         <!-- навигация -->
         <nav>
-            <a href="./index.html"><span class="logo">Web</span>Studio</a>
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li>
-                    <a href="./portfolio.html">Портфолио</a>
+            <a class="list-link logo" href="./index.html"><span class="Web-logo">Web</span>Studio</a>
+            <ul class="item-list">
+                <li class="list-item">
+                    <a class="list-link" href="./index.html">Студия</a>
                 </li>
-                <li>
-                    <a href="">Контакты</a>
+                <li class="list-item">
+                    <a class="list-link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="list-item">
+                    <a class="list-link" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <!-- контакти -->
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li> <a href="tel:+380961111111"> +38 096 111 11 11</a></li>
+        <!-- контакты -->
+        <ul class="item-list">
+            <li class="list-item"><a class="list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="list-item"> <a class="list-link" href="tel:+380961111111"> +38 096 111 11 11</a></li>
         </ul>
     </header>
+    <main>
+        <!-- партфолио -->
+        <section>
+            <h1>Партфолио</h1>
+            <ul class="item-list">
+                <li class="list-item"><button type="button" class="partfolio-buttons">Все</button> </li>
+                <li class="list-item"><button type="button" class="partfolio-buttons">Веб-сайты</button></li>
+                <li class="list-item"><button type="button" class="partfolio-buttons">Приложения</button></li>
+                <li class="list-item"><button type="button" class="partfolio-buttons">Дизайн</button></li>
+                <li class="list-item"><button type="button" class="partfolio-buttons">Маркетинг</button></li>
+            </ul>
+            <ul class="item-list">
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/Techno-crack-image.jpg" alt="Дизайн для сайта Технокряк" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/New-Orlean-vs-Golden-Star.jpg" alt="Дизайн постера матча по баскетболу" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/Seafood-Restaurant.jpg" alt="рекламній постер ресторана с морепродуктами" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/Prime-Project.jpg" alt="Наушники" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/Boxes-project.jpg" alt="Ящики" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/Inspiration-has-no-Borders.jpg" alt="Экран компьютера" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/Limited-Edition.jpg" alt="Открытая книга со страницей с лимитированным изданием" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/LAB-project.jpg" alt="брелок" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/partfolio/Growing-Business.jpg" alt="Приложение" width="370">
+                    </a>
+                    <h2 class="partfolio-image-name">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer-bcg">
+        <a class=" navigation-link logo " href="./index.html "><span class="Web-logo ">Web</span><span class="Studio-logo ">Studio</span></a>
+        <address>
+            <p class="address-text "> г. Киев, пр-т Леси Украинки, 26 </p><br />
+           <a class="navigation-link " href="mailto:info@example.com ">info@example.com</a> <br />        
+           <a class="navigation-link " href="tel:+380991111111 ">+38 099 111 11 11</a>
+        </address>
+    </footer>
+</body>
+
+</html>
