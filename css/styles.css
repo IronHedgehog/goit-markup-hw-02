@@ -9,9 +9,6 @@
 
 body {
     font-family: Roboto, sans-serif, Raleway;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
     background-color: var(--main-bg);
     color: var(--main-text);
 }
@@ -238,4 +235,13 @@ nav-link */
     font-size: 18px;
     line-height: 2.0;
     color: var(--title-text);
+}
+
+.partfolio-image-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--main-text);
 }
