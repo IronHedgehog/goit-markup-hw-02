@@ -43,6 +43,10 @@ body {
     color: var(--title-text);
 }
 
+.accent-color {
+    color: var(--accent);
+}
+
 .link {
     text-decoration: none;
 }
